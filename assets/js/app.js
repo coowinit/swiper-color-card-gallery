@@ -1,54 +1,69 @@
 const colorGroups = [
   {
-    id: 'walnut',
-    name: 'Walnut Brown',
-    swatch: './assets/images/swatches/walnut.svg',
-    previewColor: '#7a5843',
-    images: ['walnut-1.svg', 'walnut-2.svg', 'walnut-3.svg', 'walnut-4.svg']
-  },
-  {
     id: 'cedar',
-    name: 'Cedar Tone',
+    name: 'Cedar / 雪松',
     swatch: './assets/images/swatches/cedar.svg',
-    previewColor: '#8f6149',
+    previewColor: '#b99450',
     images: ['cedar-1.svg', 'cedar-2.svg', 'cedar-3.svg', 'cedar-4.svg']
   },
   {
-    id: 'charcoal',
-    name: 'Charcoal Black',
-    swatch: './assets/images/swatches/charcoal.svg',
-    previewColor: '#43474c',
-    images: ['charcoal-1.svg', 'charcoal-2.svg', 'charcoal-3.svg', 'charcoal-4.svg']
+    id: 'red-wood',
+    name: 'Red Wood / 红木',
+    swatch: './assets/images/swatches/red-wood.svg',
+    previewColor: '#b45134',
+    images: ['red-wood-1.svg', 'red-wood-2.svg', 'red-wood-3.svg', 'red-wood-4.svg']
   },
   {
-    id: 'mist',
-    name: 'Mist Grey',
-    swatch: './assets/images/swatches/mist.svg',
-    previewColor: '#a2a7ad',
-    images: ['mist-1.svg', 'mist-2.svg', 'mist-3.svg', 'mist-4.svg']
+    id: 'teak',
+    name: 'Teak / 柚木',
+    swatch: './assets/images/swatches/teak.svg',
+    previewColor: '#98643c',
+    images: ['teak-1.svg', 'teak-2.svg', 'teak-3.svg', 'teak-4.svg']
   },
   {
-    id: 'ivory',
-    name: 'Ivory White',
-    swatch: './assets/images/swatches/ivory.svg',
-    previewColor: '#ddd3c2',
-    images: ['ivory-1.svg', 'ivory-2.svg', 'ivory-3.svg', 'ivory-4.svg']
+    id: 'ash-wood',
+    name: 'Ash Wood / 水曲柳',
+    swatch: './assets/images/swatches/ash-wood.svg',
+    previewColor: '#af9b87',
+    images: ['ash-wood-1.svg', 'ash-wood-2.svg', 'ash-wood-3.svg', 'ash-wood-4.svg']
   },
   {
-    id: 'riverstone',
-    name: 'Riverstone Grey',
-    swatch: './assets/images/swatches/riverstone.svg',
-    previewColor: '#7d7a73',
-    images: ['riverstone-1.svg', 'riverstone-2.svg', 'riverstone-3.svg', 'riverstone-4.svg']
+    id: 'red-brown',
+    name: 'Red Brown / 红棕色',
+    swatch: './assets/images/swatches/red-brown.svg',
+    previewColor: '#7d4129',
+    images: ['red-brown-1.svg', 'red-brown-2.svg', 'red-brown-3.svg', 'red-brown-4.svg']
   },
   {
-    id: 'oak',
-    name: 'Natural Oak',
-    swatch: './assets/images/swatches/oak.svg',
-    previewColor: '#aa8358',
-    images: ['oak-1.svg', 'oak-2.svg', 'oak-3.svg', 'oak-4.svg']
+    id: 'coffee',
+    name: 'Coffee / 咖啡色',
+    swatch: './assets/images/swatches/coffee.svg',
+    previewColor: '#493730',
+    images: ['coffee-1.svg', 'coffee-2.svg', 'coffee-3.svg', 'coffee-4.svg']
+  },
+  {
+    id: 'blue-black',
+    name: 'Blue Black / 蓝黑',
+    swatch: './assets/images/swatches/blue-black.svg',
+    previewColor: '#383d52',
+    images: ['blue-black-1.svg', 'blue-black-2.svg', 'blue-black-3.svg', 'blue-black-4.svg']
+  },
+  {
+    id: 'stone-grey',
+    name: 'Stone Grey / 石灰',
+    swatch: './assets/images/swatches/stone-grey.svg',
+    previewColor: '#696c71',
+    images: ['stone-grey-1.svg', 'stone-grey-2.svg', 'stone-grey-3.svg', 'stone-grey-4.svg']
+  },
+  {
+    id: 'smoke-grey',
+    name: 'Smoke Grey / 烟灰',
+    swatch: './assets/images/swatches/smoke-grey.svg',
+    previewColor: '#8a8a82',
+    images: ['smoke-grey-1.svg', 'smoke-grey-2.svg', 'smoke-grey-3.svg', 'smoke-grey-4.svg']
   }
 ];
+
 
 const swatchesEl = document.getElementById('swatches');
 const swatchSwiperEl = document.getElementById('swatchSwiper');
